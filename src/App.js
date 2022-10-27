@@ -3,7 +3,10 @@ import Home from './Home';
 import index from './index';
 
 function App() {
+   
     return (
+      <>
+       
     <div className="App">
       <Navbar />
        <div className="content">
@@ -11,6 +14,7 @@ function App() {
         
         </div>
     </div>
+    </>
   );
 }
 
