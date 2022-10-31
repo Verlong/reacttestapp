@@ -1,20 +1,15 @@
 import Navbar from './Navbar';
 import Home from './Home';
-import index from './index';
+
 
 function App() {
-   
-    return (
-      <>
-       
+  return (
     <div className="App">
       <Navbar />
-       <div className="content">
+      <div className="content">
         <Home />
-        
-        </div>
+      </div>
     </div>
-    </>
   );
 }
 
