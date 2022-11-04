@@ -14,7 +14,7 @@ const Create = () => {
     
     setIsPending(true);
 
-    fetch('http://localhost:8000/blogs/', {
+    fetch('https://icy-coast-036547203.2.azurestaticapps.net/blogs', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog)
