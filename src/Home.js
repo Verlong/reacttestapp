@@ -2,7 +2,7 @@ import BlogList from "./BlogList";
 import useFetch from "./useFetch";
 
 const Home = () => {
-  const { error, isPending, data: blogs } = useFetch('http://localhost:8000/blogs/')
+  const { error, isPending, data: blogs } = useFetch('https://nice-hill-08b684b03.2.azurestaticapps.net/blogs/')
 
   return (
     <div className="home">
